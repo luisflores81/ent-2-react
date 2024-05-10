@@ -1,0 +1,55 @@
+
+.App {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: rgba(91, 139, 150, 0.753);
+  width: 30em;
+  border-radius: 25%;
+  margin-top: 10%;
+}
+
+.container img {
+  display: inline;
+}
+
+.container ul {
+  text-align: left;
+  list-style: none;
+  height: 6em;
+  margin-top: 3.5em;
+}
+
+.details {
+  display: flex;
+  height: 9em;
+}
+
+.temp{
+  font-size: 5rem;
+  padding: .2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+button {
+  border-style: none;
+  margin-bottom: .5em;
+  padding: .5em;
+  padding-right: 2em;
+  padding-left: 2em;
+  background-color:  rgb(243, 248, 172);;
+  font-weight: bold;
+  border-radius: 10%;
+}
+
+img {
+  width: 12em;
+}
